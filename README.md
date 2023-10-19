@@ -1,6 +1,6 @@
 Hey 👋, I am GarfieldTV
 ------------------------
-**I'm curently coding in Python and C#**
+**I'm curently coding in Python**
 
 - 🔭 I’m currently working on **OhioNetwork.de**
 - 🌱 I’m currently learning **Lua**
