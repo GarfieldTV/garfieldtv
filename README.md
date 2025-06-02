@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm GarfieldTV</h1>
-- 🔭 I’m currently working on **EraMC**
+- 🔭 I’m currently working on EraMC
 
 - 💬 Ask me about **Anime stuff**
 
