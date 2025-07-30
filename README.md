@@ -14,7 +14,7 @@
 **Description:** A growing anime database platform with detailed series info, ratings, and user contributions.
 
 
-## 🌐 Connect With Me
+## Socials
 
 <div align="left">
   <a href="https://www.youtube.com/@TheGarfieldTV" target="_blank">
