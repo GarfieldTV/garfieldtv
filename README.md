@@ -1,6 +1,5 @@
 <h2 align="left">Hi 👋! I'm GarfieldTV from Switzerland 🇨🇭</h2>
 
-<br />
 
 ## 🚧 Current Projects
 
@@ -31,4 +30,3 @@
 
 ---
 
-<img src="https://raw.githubusercontent.com/maurodesouza/maurodesouza/output/snake.svg" alt="Snake animation" />
