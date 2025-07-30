@@ -9,24 +9,17 @@
 
 <br />
 
-<img align="right" height="150" src="https://static.wikia.nocookie.net/garfield/images/2/26/Garfield_New_Look-removebg-preview.png/revision/latest/scale-to-width/360?cb=20250228052648" alt="Garfield" />
-
 ## 🚧 Current Projects
 
-<table>
-  <tr>
-    <td><strong>Redpix.net</strong></td>
-    <td>Director</td>
-    <td>Minecraft SMP server</td>
-    <td><a href="https://discord.gg/redpix" target="_blank">🔗 Visit</a></td>
-  </tr>
-  <tr>
-    <td><strong>HayaseDB</strong></td>
-    <td>Moderator</td>
-    <td>A growing anime database with detailed series information and user contributions.</td>
-    <td><a href="https://hayasedb.com/" target="_blank">🔗 Visit</a></td>
-  </tr>
-</table>
+### 🎮 [Redpix.net](https://discord.gg/redpix)
+**Role:** Director  
+**Description:** A community-driven Minecraft SMP server focused on creativity, events, and storytelling.
+
+---
+
+### 📚 [HayaseDB](https://hayasedb.com/)
+**Role:** Moderator  
+**Description:** A growing anime database platform with detailed series info, ratings, and user contributions.
 
 <br />
 
