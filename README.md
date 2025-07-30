@@ -25,8 +25,6 @@
     <img src="https://img.shields.io/static/v1?message=Twitch&logo=twitch&label=&color=9146FF&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="Twitch" />
   </a>
 
-  <img src="https://img.shields.io/static/v1?message=Discord&logo=discord&label=&color=7289DA&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="Discord" title="Discord: GarfieldTV#1234" />
-  <span style="margin-left: 10px; font-size: 14px;">GarfieldTV</span>
 </div>
 
 
