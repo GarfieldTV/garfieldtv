@@ -7,7 +7,6 @@
 **Role:** Director  
 **Description:** A community-driven Minecraft Trim SMP server focused on creativity, events, pvp.
 
----
 
 ### 📚 [HayaseDB](https://hayasedb.com/)
 **Role:** Moderator  
