@@ -1,7 +1,7 @@
 <h2 align="left">Hi 👋! I'm GarfieldTV from Switzerland 🇨🇭</h2>
 
 
-## 🚧 Current Projects
+## Projects
 
 ### 🎮 [Redpix.net](https://discord.gg/redpix)
 **Role:** Director  
