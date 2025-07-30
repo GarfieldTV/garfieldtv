@@ -13,7 +13,6 @@
 **Role:** Moderator  
 **Description:** A growing anime database platform with detailed series info, ratings, and user contributions.
 
-<br />
 
 ## 🌐 Connect With Me
 
@@ -27,6 +26,3 @@
 </div>
 
 <br clear="both">
-
----
-
