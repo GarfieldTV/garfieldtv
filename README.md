@@ -3,14 +3,18 @@
 
 ## Projects
 
-### 🎮 [Redpix.net](https://discord.gg/redpix)
-**Role:** Director  
-**Description:** A community-driven Minecraft Trim SMP server focused on creativity, events, pvp.
+### 🎮 [OxyMC.net](https://discord.gg/oxymc)
+**Role:** Manager 
+**Type:** Bliss SMP Server
+
+### 📚 [TeamPanel](https://team-panel.com/)
+**Role:** 1st. Level Support  
+**Type:** Team management tool
 
 
 ### 📚 [HayaseDB](https://hayasedb.com/)
 **Role:** Moderator  
-**Description:** A growing anime database platform with detailed series info, ratings, and user contributions.
+**Type:** Anime database
 
 
 ## Socials
