@@ -2,20 +2,9 @@
 
 
 ## Projects
-
-### 🎮 [OxyMC.net](https://discord.gg/oxymc)
-**Role:** Manager 
-**Type:** Bliss SMP Server
-
-### 📚 [TeamPanel](https://team-panel.com/)
-**Role:** 1st. Level Support  
-**Type:** Team management tool
-
-
 ### 📚 [HayaseDB](https://hayasedb.com/)
 **Role:** Moderator  
 **Type:** Anime database
-
 
 ## Socials
 
