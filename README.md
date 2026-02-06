@@ -1,7 +1,11 @@
-<h2 align="left">Hi 👋! I'm GarfieldTV from Switzerland 🇨🇭</h2>
+<h2 align="left">Hi 👋! I'm GarfieldTV from Switzerland</h2>
 
 
 ## Projects
+### 😸 [Miurium.NET](https://discord.gg/MY9qNBVrbM)
+**Role:** Owner
+**Type:** Minecraft Network
+
 ### 📚 [HayaseDB](https://hayasedb.com/)
 **Role:** Moderator  
 **Type:** Anime database
