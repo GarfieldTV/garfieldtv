@@ -4,10 +4,12 @@
 ## Projects
 ### 😸 [Miurium.NET](https://discord.gg/MY9qNBVrbM)
 **Role:** Owner
+<br>
 **Type:** Minecraft Network
 
 ### 📚 [HayaseDB](https://hayasedb.com/)
-**Role:** Moderator  
+**Role:** Moderator
+<br>
 **Type:** Anime database
 
 ## Socials
