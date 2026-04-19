@@ -1,0 +1,190 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+  background: #05080F;
+}
+
+body {
+  font-family: Inter, 'Helvetica Neue', Arial, sans-serif;
+  background: #05080F;
+  color: #FFFDFE;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+  font-feature-settings: 'ss01', 'cv11';
+}
+
+::selection {
+  background: #4599FE;
+  color: #FFFDFE;
+}
+
+/* Scrollbar — thin, technical */
+::-webkit-scrollbar { width: 8px; height: 8px; }
+::-webkit-scrollbar-track { background: #05080F; }
+::-webkit-scrollbar-thumb { background: #2D4046; }
+::-webkit-scrollbar-thumb:hover { background: #4599FE; }
+
+@layer components {
+  /* DISPLAY — monumental uppercase, weight 300, tight tracking */
+  .display {
+    font-family: Inter, 'Helvetica Neue', Arial, sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: -0.01em;
+    line-height: 0.95;
+  }
+  .display-tight {
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: -0.015em;
+    line-height: 1;
+  }
+
+  /* Tech labels */
+  .tech-label {
+    font-family: 'JetBrains Mono', monospace;
+    text-transform: uppercase;
+    letter-spacing: 0.18em;
+    font-size: 0.6875rem;
+    font-weight: 500;
+    color: #B8CAD1;
+  }
+  .tech-label-dim {
+    font-family: 'JetBrains Mono', monospace;
+    text-transform: uppercase;
+    letter-spacing: 0.18em;
+    font-size: 0.6875rem;
+    font-weight: 500;
+    color: #6B7C85;
+  }
+
+  /* Bracketed index chip — replaces the tricolour stripe */
+  .index-chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.375rem 0.625rem;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.6875rem;
+    font-weight: 500;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: #B8CAD1;
+    border: 1px solid rgba(184, 202, 209, 0.15);
+  }
+  .index-chip::before {
+    content: '';
+    display: block;
+    width: 2px;
+    height: 0.75rem;
+    background: #4599FE;
+  }
+
+  /* Buttons — sharp rectangles */
+  .btn-primary {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 1rem 1.5rem;
+    background: #FFFDFE;
+    color: #05080F;
+    font-weight: 500;
+    font-size: 0.8125rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    border: 1px solid #FFFDFE;
+    transition: all 0.25s ease;
+  }
+  .btn-primary:hover {
+    background: transparent;
+    color: #FFFDFE;
+  }
+  .btn-ghost {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 1rem 1.5rem;
+    background: transparent;
+    color: #FFFDFE;
+    font-weight: 500;
+    font-size: 0.8125rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    border: 1px solid rgba(184, 202, 209, 0.25);
+    transition: all 0.25s ease;
+  }
+  .btn-ghost:hover {
+    border-color: #4599FE;
+    color: #4599FE;
+  }
+
+  /* Surfaces */
+  .surface {
+    background: #0A0F1A;
+    border: 1px solid rgba(184, 202, 209, 0.10);
+  }
+  .surface-deep {
+    background: linear-gradient(180deg, #031E49 0%, #05122C 100%);
+    border: 1px solid rgba(69, 153, 254, 0.18);
+  }
+  .hairline-b { border-bottom: 1px solid rgba(184, 202, 209, 0.12); }
+  .hairline-t { border-top: 1px solid rgba(184, 202, 209, 0.12); }
+  .hairline-l { border-left: 1px solid rgba(184, 202, 209, 0.12); }
+  .hairline-r { border-right: 1px solid rgba(184, 202, 209, 0.12); }
+}
+
+/* Subtle grain */
+.grain {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 60;
+  opacity: 0.04;
+  mix-blend-mode: overlay;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='300' height='300'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='3' stitchTiles='stitch'/><feColorMatrix type='saturate' values='0'/></filter><rect width='100%' height='100%' filter='url(%23n)' opacity='0.9'/></svg>");
+}
+
+/* Corner brackets */
+.corner-marks {
+  position: relative;
+}
+.corner-marks::before,
+.corner-marks::after {
+  content: '';
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  border-color: #4599FE;
+  border-style: solid;
+  border-width: 0;
+}
+.corner-marks::before {
+  top: -1px;
+  left: -1px;
+  border-top-width: 1px;
+  border-left-width: 1px;
+}
+.corner-marks::after {
+  bottom: -1px;
+  right: -1px;
+  border-bottom-width: 1px;
+  border-right-width: 1px;
+}
+
+/* Marquee */
+.marquee-track { display: flex; width: max-content; }
+
+/* Cross-hatched background for deep surfaces */
+.bg-hatch {
+  background-image:
+    repeating-linear-gradient(45deg, rgba(255,255,255,0.02) 0, rgba(255,255,255,0.02) 1px, transparent 1px, transparent 12px);
+}
+
+/* Outline text */
+.text-outline {
+  -webkit-text-stroke: 1px rgba(184, 202, 209, 0.35);
+  color: transparent;
+}
