@@ -21,7 +21,7 @@ export default function Hero() {
         {/* HUD meta row */}
         <div className="flex flex-wrap items-center gap-x-6 gap-y-3 hairline-b pb-5 mb-14 animate-fade-up">
           <span className="index-chip">Portfolio / 2026</span>
-          <span className="tech-label-dim">Developer · Administartor · Streamer</span>
+          <span className="tech-label-dim">Developer · Administrator · Streamer</span>
         </div>
 
         {/* Monumental uppercase headline */}

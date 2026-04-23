@@ -3,23 +3,23 @@ import { ArrowUpRight } from 'lucide-react'
 const CONTACTS = [
   {
     label: 'Twitch',
-    handle: '@YOUR_TWITCH_USERNAME',
-    href: 'https://twitch.tv/YOUR_TWITCH_USERNAME',
+    handle: '@garfieldtv_live',
+    href: 'https://www.twitch.tv/garfieldtv_live',
   },
   {
     label: 'Discord',
-    handle: '@YOUR_DISCORD_USERNAME',
-    href: 'https://discord.com/users/YOUR_DISCORD_ID',
+    handle: '@garfieldtv',
+    href: 'https://discord.com/users/680343110785564699',
   },
   {
     label: 'YouTube',
-    handle: '@YOUR_CHANNEL',
-    href: 'https://youtube.com/@YOUR_CHANNEL',
+    handle: '@TheGarfieldTV',
+    href: 'https://www.youtube.com/@TheGarfieldTV',
   },
   {
     label: 'Email',
-    handle: 'your@email.com',
-    href: 'mailto:your@email.com',
+    handle: 'contact@garfieldtv.de',
+    href: 'mailto:contact@garfieldtv.de',
   },
 ]
 
@@ -83,10 +83,6 @@ export default function Contact() {
             </li>
           ))}
         </ul>
-
-        <p className="mt-8 tech-label-dim">
-          Swap YOUR_* placeholders in src/components/Contact.jsx
-        </p>
       </div>
     </section>
   )

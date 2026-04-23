@@ -2,19 +2,76 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="GarfieldTV — Minecraft server operator. Precision-run communities. Live on Twitch." />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+    <title>GarfieldTV — Portfolio</title>
+    <meta
+      name="description"
+      content="GarfieldTV — Minecraft server operator, community manager, and Twitch streamer based in Switzerland. Precision-run communities. Live on Twitch."
+    />
+    <meta name="author" content="GarfieldTV" />
+    <meta
+      name="keywords"
+      content="GarfieldTV, Minecraft, Server Owner, Server Manager, Twitch, Streamer, Community, Switzerland"
+    />
     <meta name="theme-color" content="#031E49" />
-    <meta property="og:title" content="GarfieldTV — Portfolio" />
-    <meta property="og:description" content="Minecraft server operator. Twitch streamer. Community builder." />
+    <meta name="color-scheme" content="dark" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://garfieldtv.example/" />
+
+    <!-- Open Graph -->
     <meta property="og:type" content="website" />
+    <meta property="og:title" content="GarfieldTV — Portfolio" />
+    <meta
+      property="og:description"
+      content="Minecraft server operator. Twitch streamer. Community builder. Precision-run communities from Switzerland."
+    />
+    <meta property="og:url" content="https://garfieldtv.example/" />
+    <meta property="og:site_name" content="GarfieldTV" />
+    <meta property="og:locale" content="en_US" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="GarfieldTV — Portfolio" />
+    <meta
+      name="twitter:description"
+      content="Minecraft server operator. Twitch streamer. Community builder."
+    />
+
+    <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;900&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
-    <title>GarfieldTV — Portfolio</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;900&family=JetBrains+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Structured data: Person -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "GarfieldTV",
+        "alternateName": "Garfield",
+        "description": "Minecraft server operator, community manager, and Twitch streamer.",
+        "jobTitle": "Server Owner / Manager / Streamer",
+        "nationality": "CH",
+        "url": "https://garfieldtv.example/",
+        "sameAs": [
+          "https://twitch.tv/YOUR_TWITCH_USERNAME",
+          "https://youtube.com/@YOUR_CHANNEL"
+        ]
+      }
+    </script>
   </head>
   <body class="bg-bg text-fg antialiased">
+    <noscript>
+      <div style="padding:2rem;color:#fff;background:#031E49;font-family:sans-serif">
+        GarfieldTV — this portfolio needs JavaScript enabled. Reach out at
+        <a href="mailto:your@email.com" style="color:#4599FE">your@email.com</a>.
+      </div>
+    </noscript>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
   </body>
