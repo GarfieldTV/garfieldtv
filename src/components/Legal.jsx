@@ -127,12 +127,11 @@ function Imprint() {
         Swap the placeholders below with your real details before publishing.
       </p>
       <dl>
-        <Field k="Operator" v="[Your full legal name]" />
+        <Field k="Operator" v="Max Schwitter" />
         <Field k="Pseudonym" v="GarfieldTV" />
-        <Field k="Address" v="[Street, Postal code, City, Switzerland]" />
-        <Field k="Email" v="your@email.com" />
-        <Field k="Phone" v="[Optional]" />
-        <Field k="Responsible" v="[Your full legal name]" />
+        <Field k="Address" v="Brühlstrasse 56, 2503, Biel, Switzerland" />
+        <Field k="Email" v="contact@garfieldtv.de" />
+        <Field k="Responsible" v="Max Schwitter" />
       </dl>
 
       <H>Liability for content</H>
@@ -207,8 +206,8 @@ function Privacy() {
       <H>Contact</H>
       <p>
         For any privacy-related questions, reach out to{' '}
-        <a href="mailto:your@email.com" className="text-bmw-blue hover:underline">
-          your@email.com
+        <a href="mailto:contact@garfieldtv.de" className="text-bmw-blue hover:underline">
+          contact@garfieldtv.de
         </a>
         .
       </p>
